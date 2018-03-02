@@ -1,0 +1,22 @@
+#body{
+background-color: yellow;
+color: blue;
+}
+#title{
+	font-weight: bold;
+}
+#column1 {
+	font-weight: bold;
+}
+#column2 {
+	font-weight: bold;
+}
+#form {
+	font-weight: bold;
+}
+.line {
+border-top: 1px solid #007bff;
+}
+span{
+/*	display: inline-flex;
+*/}
