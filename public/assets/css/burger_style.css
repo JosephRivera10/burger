@@ -11,8 +11,7 @@ color: red;
 	border-radius: 8px;
 	border-width: 5px;
 	border-color: red;
-	margin-right: 15%;
-	margin-left: 8%;
+	margin-left: 10%;
 }
 #column2 {
 	font-weight: bold;
@@ -20,6 +19,7 @@ color: red;
 	border-radius: 8px;
 	border-width: 5px;
 	border-color: red;
+	margin-left: 10%;
 }
 #form {
 	font-weight: bold;
@@ -29,6 +29,7 @@ color: red;
 	border-color: red;
 	padding-bottom: 15px;
 	margin-left: 15%;
+	margin-right: 25%;
 }
 input {
 	width: 100%;
@@ -36,53 +37,39 @@ input {
 .line {
 border-top: 1px solid red;
 }
-@media (min-width: 768px) {
-	#column1{
-		margin-bottom: 18px;
-		margin-left: 18%;
+@media screen and (max-width: 992px) {
+	#column1 {
+		margin-left: 25%;
+		margin-bottom: 15px;
 	}
-	#column2 {
-		margin-left: 18%;
-		
-	}
-}
-@media (min-width: 576px) {
-	#column1{
-		margin-bottom: 18px;
-		margin-left: 18%;
-	}
-	#column2 {
-		margin-left: 18%;
-		
-	}
-}
-@media (min-width: 480px) {
-	#column1{
-		margin-bottom: 18px;
-		margin-left: 18%;
-	}
-	#column2 {
-		margin-left: 18%;
-	}
-}
-@media (min-width: 410px) {
-	#column1{
-		font-size: 16px;
-	}
-	#column2 {
-		font-size: 16px;
+	#column2{
+		margin-left: 25%;
 	}
 	#form {
-		font-size: 16px;
+		margin-left: 25%;
 	}
 }
-@media (min-width: 300px) {
-	#column1{
-		margin-bottom: 18px;
-		margin-left: 18%;
+@media screen and (max-width: 768px) {
+	#column1 {
+		margin-left: 25%;
+		margin-bottom: 15px;
 	}
-	#column2 {
-		margin-left: 18%;
-		
+	#column2{
+		margin-left: 25%;
+	}
+	#form {
+		margin-left: 25%;
+	}
+}
+@media screen and (max-width: 576px) {
+	#column1 {
+		margin-left: 25%;
+		margin-bottom: 15px;
+	}
+	#column2{
+		margin-left: 25%;
+	}
+	#form {
+		margin-left: 25%;
 	}
 }
