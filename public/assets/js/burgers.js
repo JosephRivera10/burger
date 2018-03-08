@@ -35,4 +35,14 @@ $(function(){
 			location.reload();
 		});
 	});
+
+	$(".delete").on("click", function(event) {
+		var id = $(this).data("id");
+		$.ajax("/api/burgers/" + id, {
+			type: "DELETE",
+			url: "/api/burgers/" + id
+		}).then(function(){
+			location.reload();
+		});
+	});
 });

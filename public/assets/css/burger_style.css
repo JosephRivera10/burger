@@ -1,22 +1,32 @@
 #body{
-background-color: yellow;
-color: blue;
+background-color: white;
+color: red;
 }
 #title{
 	font-weight: bold;
 }
 #column1 {
 	font-weight: bold;
+	border-style: solid;
+	border-radius: 8px;
+	border-width: 5px;
+	border-color: red;
 }
 #column2 {
 	font-weight: bold;
+	border-style: solid;
+	border-radius: 8px;
+	border-width: 5px;
+	border-color: red;
 }
 #form {
 	font-weight: bold;
+	border-style: solid;
+	border-radius: 8px;
+	border-width: 5px;
+	border-color: red;
+	padding-bottom: 15px;
 }
 .line {
-border-top: 1px solid #007bff;
+border-top: 1px solid red;
 }
-span{
-/*	display: inline-flex;
-*/}
